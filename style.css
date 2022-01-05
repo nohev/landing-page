@@ -1,20 +1,126 @@
 * {
     font-family:'Roboto', Verdana, Geneva, Tahoma, sans-serif;
 }
+/*SECTION 1*/
 .sec1 {
     background-color: #1f2937;
-    Padding-right:20px;
-    Padding-left: 20px;
-    text-decoration: none;
+    Padding:20px 120px 50px 120px;
+    text-decoration:none;
 }
-.navbar a{
-    font-size:24px;
-    color:#f9faf8;
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   text-decoration:none;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
 }
 .header-links{
-    display:flex;
     font-size:18px;
     color: #e5e7eb;
+    text-decoration:none;
+    padding-left:25px;
+}
+.introduction{
+    padding-top:40px;
+    display:flex;
+    flex-direction:row;
+}
+.text h1{
+    font-size:48px;
+    font-weight:extra-bold;
+    color:#f9faf8;
+}
+.text p{
+    font-size:18px;
+    color: #e5e7eb; 
+    margin-top:-50px;  
+}
+.text button{
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-radius:8px;
+    height: 30px;
+    width: 80px;
+    border:0px;
+}
+/*SECTION 2*/
+.sec2 {
+    padding:20px 120px 50px 120px;
+}
+.sec2 h2{
+    font-size:36px;
+    font-weight:extra-bold;
+    color:#1f2937;
+    text-align:center;
+}
+.grid {
+    display:flex;
     justify-content:space-between;
-    padding-left:auto;
+    align-items:center;
+}
+.item img{
+    border:solid;
+    border-color:#3882f6;
+    border-radius: 8px;
+    border-width:thick;
+    height:auto;
+    width:140px;
+}
+.item p{
+    font-size:18px;
+    color:#1f2937
+}
+/*SECTION 3*/
+.sec3{
+    padding:20px 120px 50px 120px;
+    background-color: #e5e7eb;
+    color:#1f2937;
+    display:flex;
+    flex-direction:column; 
+}
+.quote{
+    font-style:italic;
+    font-size:36px;
+}
+.sgntr{
+    align-self:flex-end;
+    font-size:20px;
+}
+/*SECTION 4*/
+.sec4{
+    padding:20px ;
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    margin-left:180px;
+    margin-right:180px;
+    margin-top:50px;
+    margin-bottom:50px;
+    background-color:#3882f6;
+    border-radius: 15px;
+    align-items:center;   
+}
+.call {
+    color:#f9faf8;
+    font-size:24px;
+}
+}
+.sec4 button {
+    height: 30px;
+    width: 80px;
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-color:#e5e7eb;
+
+}
+footer {
+    padding-top:50px;
+    padding-bottom:30px;
+    align-items:center;
+    background-color:#1f2937;
+    color:#f9faf8;
+    
 }
