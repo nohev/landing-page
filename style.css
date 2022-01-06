@@ -93,8 +93,7 @@
 /*SECTION 4*/
 .sec4{
     padding:20px ;
-    display:grid;
-    grid-template-columns: 3fr 1fr;
+    display:flex;
     margin-left:180px;
     margin-right:180px;
     margin-top:50px;
@@ -107,13 +106,15 @@
     color:#f9faf8;
     font-size:24px;
 }
-}
+
 .sec4 button {
     height: 30px;
     width: 80px;
     background-color: #3882f6;
     color:#f9faf8;
-    border-color:#e5e7eb;
+    border-color:#f9faf8;
+    border-radius: 8px;
+    border-width: thick;
 
 }
 footer {
